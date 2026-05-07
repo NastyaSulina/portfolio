@@ -1,0 +1,65 @@
+:root {
+  --bg: #080c13;
+  --fg: #e8e8e8;
+  --green: #aaee44;
+  --yellow: #e8c94a;
+  --orange: #ffa116;
+  --purple: #b48aff;
+  --blue: #5485E6;
+  --muted: #7e8d9f;
+  --border: #1e1e1e;
+  --card-bg: #0e1421;
+  --font: "JetBrains Mono", monospace;
+  --ease: 200ms ease;
+}
+
+[data-theme="light"] {
+  --bg: #f8f7f8;
+  --fg: #1a1a1a;
+  --green: #67b52d;
+  --yellow: #c08a00;
+  --orange: #ffa116;
+  --purple: #7252b9;
+  --blue: #2274d5;
+  --muted: #6d7381;
+  --border: #e2dfd8;
+  --card-bg: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font);
+  color: inherit;
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
+}
+button:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
