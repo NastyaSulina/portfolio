@@ -71,13 +71,14 @@ const links: LinkCard[] = [
     href: "https://drive.google.com/file/d/1i4FU33wMAKw_fe78lVj9cfsnLH-ADr48/view?usp=sharing",
     arrowColor: "var(--green)",
   },
-  {
-    icon: icons.linkedin,
-    title: "LinkedIn",
-    sub: "profile",
-    href: "https://www.linkedin.com/in/imgrau",
-    arrowColor: "var(--blue)",
-  },
+  // Temporarily hidden
+  // {
+  //   icon: icons.linkedin,
+  //   title: "LinkedIn",
+  //   sub: "profile",
+  //   href: "https://www.linkedin.com/in/imgrau",
+  //   arrowColor: "var(--blue)",
+  // },
   {
     icon: icons.github,
     title: "GitHub",
