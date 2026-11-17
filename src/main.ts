@@ -68,7 +68,7 @@ const links: LinkCard[] = [
     icon: icons.resume,
     title: "Resume",
     sub: "PDF",
-    href: "https://drive.google.com/file/d/1SE8PP0Eu4LA-HLw47qr-Bvk4ljWy1A4Q/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1i4FU33wMAKw_fe78lVj9cfsnLH-ADr48/view?usp=sharing",
     arrowColor: "var(--green)",
   },
   {
