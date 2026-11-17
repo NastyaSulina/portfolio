@@ -42,7 +42,7 @@ const year = new Date().getFullYear();
 
 const i18n: Record<string, Content> = {
   en: {
-    comment: "// frontend engineer",
+    comment: "// Frontend & Full-stack Developer",
     firstName: "anastasiia",
     lastName: "sulina",
     bio: 'I build clean, fast and accessible interfaces with <span class="hl-react">React</span> and <span class="hl-ts">TypeScript</span>.',
@@ -52,7 +52,7 @@ const i18n: Record<string, Content> = {
     footer: { status: "available for new opportunities", year: `© ${year}` },
   },
   ru: {
-    comment: "// фронтенд-разработчик",
+    comment: "// фронтенд + фуллстек-разработчик",
     firstName: "анастасия",
     lastName: "сулина",
     bio: 'Разрабатываю чистые, быстрые и доступные интерфейсы на <span class="hl-react">React</span> и <span class="hl-ts">TypeScript</span>.',
